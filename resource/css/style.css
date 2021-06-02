@@ -1,0 +1,236 @@
+/*global css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 62.5% ;
+    line-height: 1.3;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+}
+.containar{
+    max-width: 114rem;
+    margin: auto;
+}
+section{
+    padding: 5rem 0;
+    margin:0 auto;
+}
+button{
+    cursor: pointer;
+}
+h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    width: auto;
+    text-align: center;
+}
+h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: rgb(204, 204, 204);
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+/*header css*/
+.topbar{
+    width: 100%;
+    float: left;
+    background: #0175b3;
+    padding: 1rem;
+}
+.info {
+    font-size: 1.6rem;
+    color: white;
+    text-align: left;
+}
+.info span {
+    color: white;
+}
+.info i {
+    padding:0 1rem;
+}
+.social{
+    color: black;
+    font-size: 1.3rem;
+    text-align: right;
+}
+.social a {
+    color: black;
+    padding: 0.5rem;
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+#logo{
+    width: 13rem;
+}
+.menu{
+    text-align: right;
+}
+.menu ul{
+    margin-top: 3.5rem;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 3rem;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.search{
+    display: inline;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-left: 3rem;
+}
+.search input{
+    border: none;
+    width: 10rem;
+}
+.search i{
+    font-size: 1.6rem;
+}
+
+/*home section css*/
+
+#home{
+    width: 100%;
+    float: left;
+    background: url(../img/hero-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-information {
+    margin-top: 20rem;
+}
+.hero-information h1{
+    font-size: 5rem;
+    padding: 1rem 0;
+    color: #017ec1;
+}
+.hero-information p{
+    width: 45rem;
+    color: gray;
+    padding-bottom: 1rem;
+}
+.hero-btn button {
+    padding: 0.5rem 1.5rem;
+    background: #017ec1;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+
+}
+/*welcome section css*/
+#welcome{
+    width: 100%;
+    float: left;
+    
+}
+.heading-info{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.welcome-img{
+    text-align: center;
+    background:  url(../img/handshakh.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-header p{
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem;
+    
+}
+.welcome-header h2{
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 6rem;
+}
+.welcome-btn{
+    padding-bottom: 7rem;
+}
+.welcome-btn button{
+    padding: 0.5rem 1.5rem;
+    background: #017ec1;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+/*team section css*/
+
+.team-header{
+    width: 100%;
+    float: left;
+}
+#team{
+    width: 100%;
+    float: left;
+    background: #d8d8da;
+}
+.team-box{
+    background: white;
+    width: 23%;
+    margin: auto;
+    margin-right:2%;
+    box-shadow: white;
+    
+}
+.team-box img{
+    width: 100%;
+    height: 30rem;
+}
+#nahid{
+    margin: auto;
+}
+.team-box h3{
+    text-align: center;
+    color: #0175b3;
+}
+.team-box p{
+    text-align: center;
+    padding: 1rem;
+}
+
+#services{
+    width: 100%;
+    float: left;
+}
+.services-header{
+    width: 100%;
+    float: left;
+}
+.services-header h2{
+    margin: 5rem;
+    
+}
